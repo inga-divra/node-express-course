@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "08-os-module.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,6 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.9"
   }
 }
