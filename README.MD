@@ -6,6 +6,14 @@ This course provides a comprehensive introduction to Node.js, covering both fund
 
 I **learned** how to build multiple full-featured applications, including an E-Commerce API and various RESTful services, solidifying my understanding of Node.js in production-level projects.
 
+## Course Link
+
+- [NodeJS Tutorial and Projects Course on Udemy](https://www.udemy.com/course/nodejs-tutorial-and-projects-course/?couponCode=ST17MT31325G1)
+
+## Teacher
+
+- **John Smilga**
+
 ## What I Learned as a Developer
 
 ### 1. **Core Node.js Concepts**
@@ -50,11 +58,3 @@ I **learned** how to build multiple full-featured applications, including an E-C
 - Building a fully functional E-Commerce API
 - Creating an API for job listings with user authentication
 - Implementing workflow automation for emails and transactions
-
-## How This Course Improved My Skills
-
-- Strengthened my backend development expertise by working on real-world projects.
-- Improved my ability to build and structure scalable and maintainable APIs.
-- Enhanced my understanding of full-stack development by integrating Node.js with frontend technologies.
-- Gained hands-on experience in deploying and optimizing Node.js applications.
-- Deepened my knowledge of security practices and authentication mechanisms in web applications.
