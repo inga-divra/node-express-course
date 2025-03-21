@@ -3,7 +3,7 @@ const app = express();
 const tasks = require('./routes/tasks');
 const connectDB = require('./db/connect');
 require('dotenv').config();
-
+const notFound = require('./middleware/not-found');
 //middleware
 app.use(express.static('./public'));
 app.use(express.json());
@@ -15,8 +15,9 @@ app.use('/api/v1/tasks', tasks);
 //app.patch('/api/v1/tasks/:id')         - UPDATE task
 //app.delete('/api/v1/tasks/:id')        - DELETE task
 
+//CUSTOM RESPONSE 404
+app.use(notFound);
 const port = 3000;
-
 const start = async () => {
   try {
     await connectDB(process.env.MONGO_URI);
