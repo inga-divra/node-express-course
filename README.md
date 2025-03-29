@@ -31,15 +31,4 @@ This repository contains my learning progress and projects from the **Node.js Tu
 - 🎥 **Duration**: 34.5 hours of video content  
 - 🌍 **Technologies**: Node.js, Express.js, MongoDB, Mongoose, JWT, Stripe  
 
-## Progress  
-✅ Completed sections: _[Update based on progress]_  
-🔄 In progress: _[Current section]_  
-⏳ Upcoming: _[Next topic]_  
-
-## Notes & Resources  
-- My detailed notes are available in the `/notes` directory.  
-- Course exercises and projects are documented in `/projects`.  
-
----
-
 🚀 **Goal**: To master backend development with Node.js and build scalable, real-world applications.  
