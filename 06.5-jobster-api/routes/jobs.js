@@ -12,6 +12,7 @@ const {
 
 router.route('/').post(testUser, createJob).get(getAllJobs);
 router.route('/stats').get(showStats);
+
 router
   .route('/:id')
   .get(getJob)

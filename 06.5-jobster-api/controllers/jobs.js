@@ -2,6 +2,9 @@ const Job = require('../models/Job');
 const { StatusCodes } = require('http-status-codes');
 const { BadRequestError, NotFoundError } = require('../errors');
 
+const mongoose = require('mongoose');
+const moment = require('moment');
+
 const getAllJobs = async (req, res) => {
   const { search, status, jobType, sort } = req.query;
 
@@ -116,10 +119,26 @@ const deleteJob = async (req, res) => {
   res.status(StatusCodes.OK).send();
 };
 
-const showStats = (req, res) => {
-  res
-    .status(StatusCodes.OK)
-    .json({ defaultStats: {}, monthlyApplications: [] });
+const showStats = async (req, res) => {
+  try {
+    if (!req.user) {
+      return res.status(StatusCodes.UNAUTHORIZED).json({ msg: 'Unauthorized' });
+    }
+
+    let stats = await Job.aggregate([
+      { $match: { createdBy: new mongoose.Types.ObjectId(req.user.userId) } }, // Add 'new' here
+      { $group: { _id: '$status', count: { $sum: 1 } } },
+    ]);
+
+    console.log('Stats:', stats);
+
+    res
+      .status(StatusCodes.OK)
+      .json({ defaultStats: stats, monthlyApplications: [] });
+  } catch (error) {
+    console.error('Error in showStats:', error);
+    res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({ msg: 'Server Error' });
+  }
 };
 
 module.exports = {
