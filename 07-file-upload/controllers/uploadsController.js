@@ -1,7 +1,17 @@
+const path = require('path');
 const { StatusCodes } = require('http-status-codes');
 
 const uploadProductImage = async (req, res) => {
-  res.send('upload product image');
+  const productImage = req.files.image;
+
+  const ImagePath = path.join(
+    __dirname,
+    '../public/uploads/' + `${productImage.name}`
+  );
+  await productImage.mv(ImagePath);
+  return res
+    .send(StatusCodes.OK)
+    .json({ image: { src: `/uploads/${productImage.name}` } });
 };
 
 module.exports = {
