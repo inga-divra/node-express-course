@@ -56,6 +56,8 @@ To master backend development with Node.js and apply these skills in full-stack 
 - **Tech Stack**:  
   `Node.js`, `Express.js`, `MongoDB`, `Mongoose`, `JWT`, `Stripe`, `Cloudinary`, `Nodemailer`
 
+You can find the course here: [Node.js Tutorial and Projects Course on Udemy](https://www.udemy.com/course/nodejs-tutorial-and-projects-course/?couponCode=CP130525)
+
 ---
 
 ## 🧠 Why I'm Taking This Course
