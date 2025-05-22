@@ -61,6 +61,6 @@ To master backend development with Node.js and apply these skills in full-stack 
 ## 🧠 Why I'm Taking This Course
 
 I'm preparing for a career in backend and full-stack development. This course gives me practical, hands-on experience with tools used in real companies.  
-It also supports my current portfolio project (**BOB**), which is part of my university coursework and startup plan.
+It also supports my current portfolio project, which is part of my university coursework and startup plan.
 
 ---
