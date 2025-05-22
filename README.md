@@ -1,38 +1,66 @@
-# Node.js Tutorial and Projects Course
+# Node.js Tutorial and Projects Course – My Learning Journey
 
-## Course Overview
+This repository documents my progress through the **Node.js Tutorial and Projects Course** by [John Smilga](https://www.johnsmilga.com) on Udemy.  
+The course focuses on building real-world applications using **Node.js, Express, and MongoDB**, and covers essential backend development concepts.
 
-This repository contains my learning progress and projects from the **Node.js Tutorial and Projects Course** by [John Smilga](https://www.johnsmilga.com). The course focuses on building real-world applications using **Node.js, Express, and MongoDB**, covering key backend development concepts.
+---
 
-## What I Have Learned
+## 🚀 Goal
 
-- **Node.js Fundamentals** – Understanding the Node.js runtime and its capabilities.
-- **Express.js** – Creating and managing server-side applications.
-- **MongoDB & Mongoose** – Working with NoSQL databases for data storage.
-- **RESTful API Development** – Building structured APIs for real-world applications.
-- **Authentication & Authorization** – Implementing JWT (JSON Web Tokens).
-- **File Upload & Email Services** – Handling file uploads and automated emails.
-- **Payment Processing** – Integrating Stripe API for online transactions.
+To master backend development with Node.js and apply these skills in full-stack projects, including my own e-commerce platform **BOB (Black on Black store)**.
 
-## Course Content
+---
 
-- 📌 **Node.js Basics** – Understanding the event loop, modules, and file system.
-- 📌 **Express.js Basics** – Middleware, routing, error handling.
-- 📌 **Projects:**
-  - **Task Manager API** – CRUD operations with MongoDB.
-  - **Store API** – Building an e-commerce API with authentication.
-  - **JWT Authentication** – Securing APIs with authentication.
-  - **Jobs API** – Managing job listings with Node.js & Express.
-  - **File Upload** – Implementing file uploads and storage.
-  - **Send Email** – Automating email workflows in applications.
-  - **Stripe Payment Integration** – Handling transactions securely.
-  - **E-Commerce API** – Developing a complete e-commerce backend.
+## 📌 What I'm Working On
 
-## Course Details
+- Currently building the **eCommerce API** section of the course.
+- Applying what I learn directly to my own full-stack project, which includes:
+  - User authentication
+  - Shopping cart
+  - Payments via Stripe (coming soon)
+  - Firebase + MongoDB for data handling
 
-- 📅 **Instructor**: John Smilga
-- 📚 **Platform**: Udemy
-- 🎥 **Duration**: 34.5 hours of video content
-- 🌍 **Technologies**: Node.js, Express.js, MongoDB, Mongoose, JWT, Stripe
+---
 
-🚀 **Goal**: To master backend development with Node.js and build scalable, real-world applications.
+## ✅ What I Have Learned So Far
+
+- **Node.js Fundamentals** – Modules, event loop, file system.
+- **Express.js** – Middleware, routing, error handling.
+- **MongoDB & Mongoose** – NoSQL database modeling.
+- **RESTful APIs** – Creating structured APIs.
+- **JWT Authentication** – Securing endpoints with tokens.
+- **File Uploads** – Handling uploads from client apps.
+- **Email Services** – Sending transactional emails.
+- **Stripe Integration** – (In progress) Setting up payments.
+
+---
+
+## 🧪 Projects from the Course
+
+- Task Manager API – CRUD operations
+- Store API – Products, reviews, authentication
+- JWT Authentication API – Login & protected routes
+- Jobs API – Job listings management
+- File Upload – Local and cloud (optional)
+- Send Email – Using NodeMailer
+- Stripe Payments – Payment flow with secure backend
+- E-Commerce API – Full backend for an online store
+
+---
+
+## 📚 Course Details
+
+- **Instructor**: John Smilga  
+- **Platform**: Udemy  
+- **Duration**: 34.5 hours  
+- **Tech Stack**:  
+  `Node.js`, `Express.js`, `MongoDB`, `Mongoose`, `JWT`, `Stripe`, `Cloudinary`, `Nodemailer`
+
+---
+
+## 🧠 Why I'm Taking This Course
+
+I'm preparing for a career in backend and full-stack development. This course gives me practical, hands-on experience with tools used in real companies.  
+It also supports my current portfolio project (**BOB**), which is part of my university coursework and startup plan.
+
+---
