@@ -18,7 +18,7 @@ To master backend development with Node.js and apply these skills in full-stack 
   - User authentication
   - Shopping cart
   - Payments via Stripe (coming soon)
-  - Firebase + MongoDB for data handling
+  - MongoDB for data handling
 
 ---
 
