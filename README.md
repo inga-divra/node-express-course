@@ -7,7 +7,7 @@ The course focuses on building real-world applications using **Node.js, Express,
 
 ## 🚀 Goal
 
-To master backend development with Node.js and apply these skills in full-stack projects, including my own e-commerce platform **BOB (Black on Black store)**.
+To master backend development with Node.js and apply these skills in full-stack projects, including my own e-commerce platform.
 
 ---
 
