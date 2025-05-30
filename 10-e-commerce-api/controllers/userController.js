@@ -8,7 +8,11 @@ const getAllUsers = async (req, res) => {
 };
 
 const getSingleUser = async (req, res) => {
-  res.send('get single user');
+  const user = await User.findOne({ _id: req.params.id }).select('-password');
+  if (!user) {
+    throw new CustomError.NotFoundError(`No user with id: ${req.params.id}`);
+  }
+  res.status(StatusCodes.OK).json({ user });
 };
 
 const showCurrentUser = async (req, res) => {
