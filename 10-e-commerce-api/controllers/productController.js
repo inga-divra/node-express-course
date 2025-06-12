@@ -18,8 +18,8 @@ const deleteProduct = async (req, res) => {
   res.send('Delete product');
 };
 
-const uploadProduct = async (req, res) => {
-  res.send('Upload product');
+const uploadImage = async (req, res) => {
+  res.send('Upload image');
 };
 
 module.exports = {
@@ -28,5 +28,5 @@ module.exports = {
   getSingleProduct,
   updateProduct,
   deleteProduct,
-  uploadProduct,
+  uploadImage,
 };
