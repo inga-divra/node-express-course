@@ -14,6 +14,8 @@ const {
   uploadImage,
 } = require('../controllers/productController');
 
+const { getSingleProductReviews } = require('../controllers/reviewController');
+
 router
   .route('/')
   .post([authenticateUser, authorizePermissions('admin')], createProduct)
